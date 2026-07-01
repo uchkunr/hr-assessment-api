@@ -1,14 +1,15 @@
 {
   "name": "hr-assessment-api",
+  "version": "0.0.1",
   "description": "HR Candidate Screening API Gateway built with Elysia and Prisma",
   "private": true,
-  "version": "0.0.1",
   "module": "src/index.ts",
   "author": {
     "name": "Uchkun Rakhimov",
     "email": "uchkunrakhimov@gmail.com",
     "url": "https://github.com/uchkunr"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uchkunr/hr-assessment-api.git"
@@ -17,7 +18,6 @@
     "url": "https://github.com/uchkunr/hr-assessment-api/issues"
   },
   "homepage": "https://github.com/uchkunr/hr-assessment-api#readme",
-  "license": "MIT",
   "scripts": {
     "dev": "bun run --watch src/index.ts",
     "build": "bunx prisma generate && bun build --compile --minify-whitespace --minify-syntax --outfile server src/index.ts",
